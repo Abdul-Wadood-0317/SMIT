@@ -1,3 +1,10 @@
 *{
     margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    font-size: 70px;
+    color: white;
+
 }
