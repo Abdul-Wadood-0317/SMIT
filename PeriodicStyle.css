@@ -6,6 +6,7 @@
 .heading{
     font-size: 70px;
     color: white;
+    animation: flicker f.5s infinite alternate;
 }
 td{
     color: white;
@@ -53,4 +54,18 @@ td{
     background-color: #859998;
 }
 
+@keyframes flicker{
+    0%, 17%, 33%, 50%, 66%, 83%, 100%{
+        text-shadow:
+        0 0 10px #fff,
+        0 0 20px #0fa,
+        0 0 40px #0fa,
+        0 0 70px #0fa,
+        0 0 110px #0fa,
+        0 0 160px #0fa
+    }
+    20%, 40%, 60%, 80%{
+        text-shadow: none;
+    }
 
+}
