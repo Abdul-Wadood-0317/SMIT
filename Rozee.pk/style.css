@@ -2,55 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  a {
+}
+a {
     text-decoration: none;
     color: black;
-  }
-  header {
+}
+header {
     display: flex;
     justify-content: space-between;
     padding: 5px 10px;
-  }
-  nav {
+}
+nav {
     display: flex;
     align-items: center;
     gap: 15px;
-  }
-  .nav-links {
+}
+.nav-links {
     display: flex;
     gap: 20px;
     font-size: 0.9em;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     /* gap: 10px; */
-  }
-  .nav-btns {
+}
+.nav-btns {
     display: flex;
     gap: 5px;
-  }
-  post-job-btn,
-  .freelancer-btn,
-  .employ-btn {
+}
+post-job-btn,
+.freelancer-btn,
+.employ-btn {
     color: white;
-  }
-  .post-job-btn {
+}
+.post-job-btn {
     background: #46b749;
-  }
-  .freelancer-btn {
+}
+.freelancer-btn {
     background: #3682ff;
-  }
-  .employ-btn {
+}
+.employ-btn {
     background: #23315f;
-  }
-  main {
+}
+main {
     width: 100%;
-  }
-  section {
+}
+section {
     width: 100%;
     /* min-height: 60vh; */
     background-image: url("./images/banner_bg.webp");
@@ -58,8 +58,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .first-section-container {
+}
+.first-section-container {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -67,20 +67,20 @@
     gap: 40px;
     padding: 100px 0;
     color: white;
-  }
-  .main-search-field {
+}
+.main-search-field {
     width: 100%;
-  }
-  .main-search-field input,
-  .main-search-field button {
+}
+.main-search-field input,
+.main-search-field button {
     height: 50px;
     border-radius: 0;
-  }
-  .main-section-title h1 {
+}
+.main-section-title h1 {
     font-size: 2.7em;
-  }
-  
-  .get-started-btn-container a {
+}
+
+.get-started-btn-container a {
     text-align: center;
     color: white;
     display: flex;
@@ -89,29 +89,29 @@
     border: 1px solid white;
     border-radius: 100%;
     padding: 20px;
-  }
-  .get-started-btn-container a:hover {
+}
+.get-started-btn-container a:hover {
     background: #46b749;
-  }
-  .get-started-btn-container a img {
+}
+.get-started-btn-container a img {
     width: 60px;
     height: 60px;
-  }
-  .input-group {
+}
+.input-group {
     width: 100%;
-  }
-  .search-main-btn {
+}
+.search-main-btn {
     background: #1d67bd;
     color: white;
-  }
-  .collapse-btn {
+}
+.collapse-btn {
     display: none;
-  }
-  @media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1200px) {
     nav {
-      display: none;
+    display: none;
     }
     .collapse-btn {
-      display: block;
+    display: block;
     }
 }
