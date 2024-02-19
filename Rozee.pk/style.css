@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 0.9em;
+  }
+  
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 10px; */
+  }
+  .nav-btns {
+    display: flex;
+    gap: 5px;
+  }
+  post-job-btn,
+  .freelancer-btn,
+  .employ-btn {
+    color: white;
+  }
+  .post-job-btn {
+    background: #46b749;
+  }
+  .freelancer-btn {
+    background: #3682ff;
+  }
+  .employ-btn {
+    background: #23315f;
+  }
+  main {
+    width: 100%;
+  }
+  section {
+    width: 100%;
+    /* min-height: 60vh; */
+    background-image: url("./images/banner_bg.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-section-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 100px 0;
+    color: white;
+  }
+  .main-search-field {
+    width: 100%;
+  }
+  .main-search-field input,
+  .main-search-field button {
+    height: 50px;
+    border-radius: 0;
+  }
+  .main-section-title h1 {
+    font-size: 2.7em;
+  }
+  
+  .get-started-btn-container a {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 20px;
+  }
+  .get-started-btn-container a:hover {
+    background: #46b749;
+  }
+  .get-started-btn-container a img {
+    width: 60px;
+    height: 60px;
+  }
+  .input-group {
+    width: 100%;
+  }
+  .search-main-btn {
+    background: #1d67bd;
+    color: white;
+  }
+  .collapse-btn {
+    display: none;
+  }
+  @media screen and (max-width: 1200px) {
+    nav {
+      display: none;
+    }
+    .collapse-btn {
+      display: block;
+    }
+}
