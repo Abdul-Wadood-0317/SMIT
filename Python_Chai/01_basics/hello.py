@@ -10,4 +10,3 @@ tea_one = "Doodh pati"
 tea_two = "lemon tea"
 tea_three = "ginger tea"
 
-#learning new concepts
