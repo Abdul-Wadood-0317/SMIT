@@ -161,67 +161,6 @@
 // }
 
 
-// Write a loop to print odd numbers from 1 to 15.
-for (i=0;i<=15;i++){
-    if(i%2==1){
-        console.log(i)
-    }
-}
-// Write a loop to calculate and print the factorial of a number (let's say 5).
-let factorial = 1;
-for (let i = 1; i <= 5; i++) {
-    factorial *= i;
-}
-console.log(factorial);
 
-// Write a loop to print the multiplication table of a number (let's say 7) up to 10.
-const num = 7;
-for (let i = 1; i <= 10; i++) {
-    console.log(num + " * " + i + " = " + (num * i));
-}
-
-// Write a loop to print the Fibonacci series up to the 10th term.
-let n1 = 0, n2 = 1, nextTerm;
-console.log(n1);
-console.log(n2);
-for (let i = 3; i <= 10; i++) {
-    nextTerm = n1 + n2;
-    console.log(nextTerm);
-    n1 = n2;
-    n2 = nextTerm;
-}
-
-// Write a loop to find and print the sum of digits of a number (let's say 123).
-const number = 123;
-let sum = 0;
-let digit;
-for (let i = number; i > 0; i = Math.floor(i / 10)) {
-    digit = i % 10;
-    sum += digit;
-}
-console.log(sum);
-
-// Write a loop to print the reverse of a string (let's say "hello").
-const str = "hello";
-let reverseStr = "";
-for (let i = str.length - 1; i >= 0; i--) {
-    reverseStr += str[i];
-}
-console.log(reverseStr);
-
-// Write a loop to print the square of numbers from 1 to 10.
-for (let i = 1; i <= 10; i++) {
-    console.log(i + " * " + i + " = " + (i * i));
-}
-
-// Write a loop to find and print the largest element in an array (let's say [3, 7, 2, 9, 5]).
-const arr = [3, 7, 2, 9, 5];
-let largest = arr[0];
-for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > largest) {
-        largest = arr[i];
-    }
-}
-console.log(largest);
 
 
