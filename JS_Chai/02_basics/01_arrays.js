@@ -10,4 +10,9 @@ myArr.push(5)
 myArr.pop(6)
 console.log(myArr);
 
+myArr.unshift(121)
+myArr.shift()
+console.log(myArr.includes(10));
+console.log(myArr.indexOf(4));
+
 // console.log(myArr);
